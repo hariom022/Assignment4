@@ -1,0 +1,37 @@
+.artist1-con {
+    background: none;
+    height: 200px;
+    width: 200px;
+    background-image: url('bg1.png') !important;
+}   
+
+.artist2-con{
+    background: none;
+    height: 200px;
+    width: 200px;
+    background-image: url('bg2.png') !important;
+}
+.artist3-con{
+    background: none;
+    height: 200px;
+    width: 200px;
+    background-image: url('bg4.png') !important;
+}
+.artist4-con{
+    background: none;
+    height: 200px;
+    width: 200px;
+    background-image: url('bg5.png') !important;
+}
+.artist5-con{
+    background: none;
+    height: 200px;
+    width: 200px;
+    background-image: url('bg6.png') !important;
+}
+.css-1g157o5-MuiPaper-root-MuiCard-root .css-1dqo6ax-MuiCardHeader-root{
+    padding: 0px;
+    margin: 52px 0px 0px 5px;
+
+}
+
