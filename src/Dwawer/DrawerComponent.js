@@ -15,6 +15,7 @@ import PersonIcon from "@mui/icons-material/Person";
 import SettingsIcon from "@mui/icons-material/Settings";
 import LogoutIcon from "@mui/icons-material/Logout";
 import "./DrawerComponent.css";
+import { NavLink } from "react-router-dom";
 
 const drawerWidth = 240;
 
@@ -90,7 +91,7 @@ const DrawerComponent = () => {
             <LogoutIcon color="primary" />
           </IconButton>
           <Typography sx={{ mt: "75%", cursor: "pointer" }}>
-            Login Out
+            <NavLink to={"/signup"}>Login Out</NavLink>
           </Typography>
         </Box>
       </Drawer>

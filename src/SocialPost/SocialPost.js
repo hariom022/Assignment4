@@ -225,6 +225,7 @@ const SocialPost = () => {
           </Collapse>
         </Card>
       </Box>
+      <div>{/* <Slider /> */}</div>
     </>
   );
 };
