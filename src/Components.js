@@ -3,6 +3,7 @@ import DrawerComponent from "./Dwawer/DrawerComponent";
 import Header from "./Header/Header";
 import SocialPost from "./SocialPost/SocialPost";
 import Artist from "./Artists/Artist";
+import Slider1 from "./Slider/Slider";
 
 const Components = () => {
   return (
@@ -12,6 +13,9 @@ const Components = () => {
         <DrawerComponent />
         <SocialPost />
         <Artist />
+      </div>
+      <div>
+        <Slider1 />
       </div>
     </div>
   );

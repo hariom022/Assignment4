@@ -1,7 +1,7 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "./Slider.css";
-const Slider = () => {
+const Slider1 = () => {
   return (
     <div className="slider">
       <OwlCarousel
@@ -41,4 +41,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default Slider1;
